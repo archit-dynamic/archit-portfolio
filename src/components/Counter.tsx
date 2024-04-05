@@ -28,9 +28,6 @@ export default function Counter() {
           IncrementWithAsync3
         </button>
       </div>
-      <button onClick={() => dispatch(decrementAsync(3))}>
-        DecrementWithAsync3
-      </button>
     </div>
   );
 }
